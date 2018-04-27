@@ -12,6 +12,14 @@ li, ul, .nav-link, .nav- {
     height: 40px; 
     width: 40px; 
 }
+@media (max-width: 767px) {
+    h1{
+        font-size: 24px; 
+    }
+    .rounded-circle{
+        display: none; 
+    }
+}
 
  
 .jumbotron {
