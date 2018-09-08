@@ -1,175 +1,264 @@
 <!DOCTYPE html>
 <html>
+<!-- BEGIN HEAD CODE -->
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jennifer Oliveira DDS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dr. Jennifer Oliveira | Santa Monica Dentist</title>
+  <!-- ADD BOOTSTRAP TO PROJECT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- ADD TACHYONS CSS TO PROJECT -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <!-- Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+  <!-- CSS FILE LOCAL -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<!-- End of header -->
 
-<body class="bg-white text-dark container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav text-dark mr-auto mt-2 mt-lg-0">
-                        <a class="navbar-brand" href="#">
-                                <img src="assets/images/Smile-Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                                
-                              </a>                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item text-dark">
-                        <a class="nav-link text-dark" href="meet-the-team.html">MEET THE TEAM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">OUR OFFICE</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="contact.html">CONTACT</a>
-                        </li>
-                    
-                </ul>
-                <a class="navbar-brand"  href="https://www.yelp.com/biz/jennifer-k-oliveira-dds-santa-monica"><img id="logo" class="image-fluid"src="assets/images/yelp.png" class="d-inline-block align-top" alt="Yelp"></a>
-                <a class="navbar-brand"  href="https://www.facebook.com/drjenniferoliveira/"><img id="logo" class="image-fluid"src="assets/images/facebook.png" class="d-inline-block align-top" alt="Facebook"></a>
-                <a class="navbar-brand"  href="https://www.zocdoc.com/dentist/jennifer-oliveira-dds-76676"><img id="logo" class="image-fluid"src="assets/images/zocdoc.jpg" class="d-inline-block align-top" alt="ZocDoc"></a>
-            </div>
+<!-- BEGIN BODY -->
+
+<body class="pt-0">
+  <!-- BEGIN WRAPPER FOR BACKGROUND -->
+  <div id="my-background-wrapper">
+
+    <!-- BEGIN NAVBAR 1 (MARKETING) -->
+    <nav class="navbar navbar-dark bg-dark py-0">
+      <!-- ICON and LINK -->
+      <a class="navbar-brand" href="#">My Dentist |
+        <!-- <img class="" src="assets/images/Sparkle Tooth.jpg" width="30" height="30" class="ba bld-inline-block align-top"
+                  alt=""> -->
+        Santa Monica
+      </a>
+      <h3 class="f6">Call now:
+        <a class="phone f6" href="tel:+3103153676">(310) 315-3676</a>
+      </h3>
+      <!-- ZOCDOC BUTTON -->
+      <div id="zdwrapper">
+        <a href='http://www.zocdoc.com' title='Powered by ZocDoc Doctor Directory'>
+          <img src='http://offsiteSchedule.zocdoc.com/images/remote/powered-by-light.png' height='15' width='92' alt='Powered by ZocDoc Doctor Directory' />
+        </a>
+        <a href='http://www.zocdoc.com/practice/jennifer-akagi-oliveira-dds-28652' id='zocdoc_schedule'>
+          Jennifer Akagi - Oliveira DDS
+        </a>
+        <script type='text/javascript' src='http://offsiteSchedule.zocdoc.com/remote/Schedule2.js.aspx?providerid=28652&prefix=zocdoc_&bookBtn=http://offsiteSchedule.zocdoc.com/images/remote/book-yellow.png&locationId='>
+        </script>
+      </div>
+
+      <!-- END ZOCDOC -->
+
+
+      <ul class="socials" style='display:inline-flex;'>
+
+        <a class="navbar-brand" href="https://www.facebook.com/jenniferoliveiradds" target="_blank">
+          <img id="logo" class="image-fluid " src="assets/images/facebook3.png" class="d-inline-block align-top" alt="Santa Monica Dentist Facebook">
+        </a>
+        <a class="navbar-brand" href="https://twitter.com/" target="_blank">
+          <img id="logo" class="image-fluid" src="assets/images/twitter2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Twitter">
+        </a>
+        <a class="navbar-brand" href="https://plus.google.com/" target="_blank">
+          <img id="logo" class="image-fluid" src="assets/images/google2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Google+">
+        </a>
+
+        <a class="navbar-brand" href="https://www.instagram.com/" target="_blank">
+          <img id="logo" class="image-fluid" src="assets/images/instagram2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Instagram">
+        </a>
+        <a class="navbar-brand" href="https://www.youtube.com/user/" target="_blank">
+          <img id="logo" class="image-fluid" src="assets/images/youtube2.png" class="d-inline-block align-top" alt="Santa Monica  Dentist Youtube">
+        </a>
+      </ul>
+    </nav>
+    <!-- BEGIN NAVBAR -->
+    <nav class='tr bg-white'>
+
+      <a class="f6 f5-l link bg-animate black-80 hover-bg-white dib pa3 ph4-l" href="/">HOME</a>
+      <a class="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l" href="/meet-the-team.html">MEET
+        THE STAFF</a>
+      <a class="f6 f5-l link bg-animate black-80 hover-bg-custom dib pa3 ph4-l" href="/about-us.html">DENTAL HEALTH</a>
+      <a class="f6 f5-l link bg-animate black-80 hover-bg-custom dib pa3 ph4-l" href="/about"> PATIENT INFO</a>
+      <a class="f6 f5-l link bg-animate black-80 hover-bg-custom dib pa3 ph4-l" href="/contact.html">CONTACT US</a>
     </nav>
 
-            
-            <!-- End Nav Bar -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="first-slide" src="assets/images/patient.png" alt="First slide">
-                        <div class="container">
-                          <div class="carousel-caption text-left">
-                            <h1 id="testmediaquery">Jennifer Oliveira DDS</h1>
-                            <p>My Santa Monica Dentist</p>
-                            <p><a class="btn btn-lg btn-primary" href="book-now.html" role="button">Book Now</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                        <div class="container">
-                          <div class="carousel-caption">
-                            <h1>Meet Our Team</h1>
-                            <p>The Best Dental Team in the Westside</p>
-                            <p><a class="btn btn-lg btn-primary" href="meet-the-team.html" role="button">Meet The Team</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                        <div class="container">
-                          <div class="carousel-caption text-right">
-                            <h1>Patient Portal</h1>
-                            <p>Login to view your history and forms, make payments on your account.</p>
-                            <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Login</a></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-            
-<!-- End Jumbotron / CAROUSEL -->
-<div class="row m-3" id="1st-row"> 
-        <blockquote class="blockquote mt-3">
-                <p class="mb-0 font-italic"> "We want you to enjoy your dental visit and know that you that you are in caring hands!"</p>   
-        </blockquote>    
+    <!-------------- BEGIN BANNER ------------->
+
+
+    <div class="vh-100 jumbotron-fluid cover text-center align-bottom" style="background:url(assets/images/stock-photo-young-couple-of-hipsters-in-a-leather-jacket-jeans-t-shirt-wearing-sunglasses-posing-in-the-407755345.jpg) no-repeat center;">">
+      <h1 id="my-banner-text" class="f3 f2-m f1-l fw2 mv3">My Dentist </h1>
+      <h2 id="my-banner-text2" class=" align-center f2 lh-title">Santa Monica</h2>
+      <div class="">
+        <img id="tooth1" class="tooth image-fluid" src="assets/images/Sparkle Tooth_no_bg.png">
+        <img id="tooth2" class="tooth image-fluid" src="assets/images/Sparkle Tooth_no_bg.png">
+        <img id="tooth3" class="tooth image-fluid" src="assets/images/Sparkle Tooth_no_bg.png">
+      </div>
+      <p></p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Book</a>
+    </div>
+
+    <!-- BEGIN PARTNER BAR  -->
+
+    <div id="partner-bar" class="container-fluid text-center">
+      <img src="assets/images/partner-bar1.png" id=partner-image alt="Partners" class="mx-auto">
+    </div>
+    <article class='section bg-white'>
+      <div class="cf pa2">
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/blonde/id1146195596?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+            <img src="assets/images/cosmetic.jpeg"
+              alt="Cosmetic Dentistry" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">Cosmetic Dentistry</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Cosmetic Dentistry</dd>
+            </dl>
+          </a>
         </div>
-        <div class="row m-3" id="sec-row">
-                <div class="col-lg-3 col-md-6">
-                  <img class="rounded-circle" src="assets/images/implants.jpeg" alt="Implants and Veneers" width="140" height="140">
-                  <h3>Veneers</h3>
-                  <p><a class="btn btn-secondary" href="#" role="button">Learn More »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 col-md-6">
-                  <img class="rounded-circle" src="assets/images/cosmetic.jpeg" alt="Generic placeholder image" width="140" height="140">
-                  <h3>Cosmetic</h3>
-                  <p><a class="btn btn-secondary" href="#" role="button">Learn More »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 col-md-6">
-                  <img class="rounded-circle" src="assets/images/invisalign.jpeg" alt="Invisalign" width="140" height="140">
-                  <h2>Invisalign</h2>
-                  <p><a class="btn btn-secondary" href="#" role="button">Learn More »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 col-md-6">
-                        <img class="rounded-circle" src="assets/images/emergency.jpg" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Emergency</h2>
-                        <p><a class="btn btn-secondary" href="#" role="button">Learn More »</a></p>
-                      </div><!-- /.col-lg-4 -->  
-            </div>
-    <!-- Begin Portfolio and card rows -->
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/jeffery/id1146718343?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+            <img src="http://is1.mzstatic.com/image/thumb/Music71/v4/c8/2d/b1/c82db1cd-9dc5-d7cb-2a34-735cf47bb809/source/400x40000bb.png"
+              alt="Young Thug - Jeffery Album Cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100 ttu">Jeffery</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Young Thug</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/untitled-unmastered./id1089846273?at=1l3vqFJ&mt=1&app=music"
+            class="db link dim tc">
+            <img src="http://is5.mzstatic.com/image/thumb/Music49/v4/1b/36/43/1b3643c6-e6a3-41bc-7f6d-7c2b64b5d60b/source/400x40000bb.png"
+              alt="Kendrick Lamar untitled unmastered. Album Cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">untitled umastered.</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Kendrick Lamar</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/99.9/id1092026376?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+            <img src="http://is4.mzstatic.com/image/thumb/Music49/v4/e9/4c/2d/e94c2d5f-bdb0-c565-4cc2-f9dfcf7f0b87/source/400x40000bb.png"
+              alt="Kaytranada 99%" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">99%</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Kaytranada</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/aa/id1067924003?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+            <img src="http://is3.mzstatic.com/image/thumb/Music49/v4/b6/b0/a1/b6b0a1dd-998d-9786-ca2f-87470be15250/source/400x40000bb.png"
+              alt="Baauer Aa - Album Cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">Aa</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Baauer</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/99-cents/id1054734475?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+            <img src="http://is3.mzstatic.com/image/thumb/Music62/v4/fa/ae/a6/faaea65f-0819-bb5d-afaa-4f5e84015204/source/400x40000bb.png"
+              alt="Santigold 99 cents - Album cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">99 cents</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Santigold</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/a-moon-shaped-pool/id1111577743?at=1l3vqFJ&mt=1&app=music"
+            class="db link dim tc">
+            <img src="http://is2.mzstatic.com/image/thumb/Music18/v4/34/03/34/34033451-12e2-2d0b-c100-11a390922a01/source/400x40000bb.png"
+              alt="A Moon Shaped Pool - Album cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">A Moon Shaped Pool</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Radiohead</dd>
+            </dl>
+          </a>
+        </div>
+        <div class="fl w-25-m w-25-l pa2">
+          <a href="https://geo.itunes.apple.com/us/album/the-life-of-pablo/id1123231885?at=1l3vqFJ&mt=1&app=music"
+            class="db link dim tc">
+            <img src="http://is3.mzstatic.com/image/thumb/Music20/v4/c0/98/d0/c098d05b-7bcc-0ea3-0213-0f69992fda65/source/400x40000bb.png"
+              alt="The Life of Pablo - Album Cover" class="w-100 db outline black-10" />
+            <dl class="mt2 f6 lh-copy">
+              <dt class="clip">Title</dt>
+              <dd class="ml0 black truncate w-100">The Life of Pablo</dd>
+              <dt class="clip">Artist</dt>
+              <dd class="ml0 gray truncate w-100">Kanye West</dd>
+            </dl>
+          </a>
+        </div>
+      </div>
+    </article>
 
-    <!-- <div class="container mx-auto">
+    <footer class="container-fluid bg-dark footer pt-3">
 
+      <div class="row m-3">
+        <div class="col-xs-6 col-md-4 col-md-pull-4">
+          <span class="text-muted text-center"></span>
+          <p>
+            <strong>Jennifer Oliveira DDS 2018.</strong>
+            <br>
+            <a href="https://www.zocdoc.com/dentist/jennifer-oliveira-dds-76676" target="_blank">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i> 4.9/5 based on 447 reviews</a>
+            <br>2829 Santa Monica Blvd.
+            <br>Santa Monica, CA 90404
+            <br> Hours: Mon-Thu 9am-6pm, Fri 9am-12pm</p>
+        </div>
+        <div class="col-xs-6 col-md-4 col-md-push-4">
 
-        <h2 id="yelp" class="mx-auto m-5">What Our Patients Are Saying on Yelp</h2>
-        <div class="row mx-auto">
-                        <span class="yelp-review mx-auto" data-review-id="5HbwfSia9Mg0uBgQVWpZbw" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=x4KTuT7Sh6Dcvxp0RyF6gQ" rel="nofollow noopener">Barbara G.</a>'s <a href="https://www.yelp.com/biz/jennifer-k-oliveira-dds-santa-monica?hrid=5HbwfSia9Mg0uBgQVWpZbw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/7m69L-ZQICiIDENBSfKg8w" rel="nofollow noopener">Jennifer K Oliveira, DDS</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
-                        <span class="yelp-review mx-auto" data-review-id="SFwJdYjxSKpr3pVUHsXNwA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=0gV4MeQgGlkinUJNFOxIsQ" rel="nofollow noopener">James L.</a>'s <a href="https://www.yelp.com/biz/jennifer-k-oliveira-dds-santa-monica?hrid=SFwJdYjxSKpr3pVUHsXNwA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/7m69L-ZQICiIDENBSfKg8w" rel="nofollow noopener">Jennifer K Oliveira, DDS</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>    
+          <h3>
+            <a class="phone ppc-number" href="tel:+3103153676">(310) 315-3676</a>
+          </h3>
+          <a class="btn" href="#">Request Appointment</a>
+
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.910561596564!2d-118.476048!3d34.0316169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3fc18110a3a7e3a!2sJennifer+K.Oliveira+DDS!5e0!3m2!1sen!2sus!4v1524352319225"
+              width="200px" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-        </div> -->
+        </div>
 
-<footer class="footer container pt-3">
+      </div>
 
-    <div class="row m-3">
-            <div class="col-xs-6 col-md-4 col-md-pull-4">
-                    <span class="text-muted text-center"></span>
-                    <p><strong>Jennifer Oliveira DDS 2018.</strong><br>
-                        <a href="https://www.zocdoc.com/dentist/jennifer-oliveira-dds-76676" target="_blank"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4.9/5 based on 447 reviews</a>
-                      <br>2829 Santa Monica Blvd. <br>Santa Monica, CA 90404<br>
-                           Hours: Mon-Thu 9am-6pm, Fri 9am-12pm</p>
-            </div>
-            <div class="col-xs-6 col-md-4 col-md-push-4">
-
-                        <h3><a class="phone ppc-number" href="tel:+3103153676">(310) 315-3676</a></h3>
-                        <a class="btn" href="#">Request Appointment</a>
-                        
-                    
-                    <ul class="socials container">
-
-                      <a class="navbar-brand"href="https://www.facebook.com/jenniferoliveiradds" target="_blank"><img id="logo" class="image-fluid "src="assets/images/facebook2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Facebook"></a>
-                      <a class="navbar-brand"href="https://twitter.com/" target="_blank"><img id="logo" class="image-fluid" src="assets/images/twitter2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Twitter"></a>
-                      <a class="navbar-brand"href="https://plus.google.com/" target="_blank"><img id="logo" class="image-fluid" src="assets/images/google2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Google+"></a>
-                        <a class="navbar-brand"href="https://www.youtube.com/user/" target="_blank"><img id="logo" class="image-fluid" src="assets/images/youtube2.png" class="d-inline-block align-top" alt="Santa Monica  Dentist Youtube"></a>
-                        <a class="navbar-brand"href="https://www.instagram.com/" target="_blank"><img id="logo" class="image-fluid" src="assets/images/instagram2.png" class="d-inline-block align-top" alt="Santa Monica Dentist Instagram"></a>
-                    </ul> 
-            </div>    
-                    <div class="col-xs-12 col-md-4">
-                            <div class="iframe-container">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.910561596564!2d-118.476048!3d34.0316169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3fc18110a3a7e3a!2sJennifer+K.Oliveira+DDS!5e0!3m2!1sen!2sus!4v1524352319225" width="auto" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                    </div>
-        
-                </div>
-
-</footer>
+    </footer>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<!-- END BODY / BEGIN SCRIPTS  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+  crossorigin="anonymous"></script>
+
 </html>
+
+<!-- <div class="row m-3" id="1st-row">
+    <blockquote class="blockquote mt-3">
+      <p class="mb-0 font-italic"> "We want you to enjoy your dental visit and know that you that you are in caring
+        hands!"</p>
+    </blockquote>
+  </div> -->
